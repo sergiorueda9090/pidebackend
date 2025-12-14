@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'category',
     'subcategories',
     'brands',
+    'atributos',
 ]
 
 MIDDLEWARE = [
