@@ -31,4 +31,5 @@ urlpatterns = [
     path('api/subcategory/', include('subcategories.api.urls'), name="subcategory"),
     path('api/brand/', include('brands.api.urls'), name="brand"),
     path('api/attribute/', include('atributos.api.urls'), name="atributos"),
+    path('api/attribute-value/', include('atributosvalores.api.urls'), name="attribute-value"),
 ]
