@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'atributos', 
     'atributosvalores',
     'categoriaatributos',
+    'productos',
 ]
 
 MIDDLEWARE = [
