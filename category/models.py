@@ -4,7 +4,6 @@ from django.core.validators import FileExtensionValidator
 from django.utils import timezone
 
 # Create your models here.
-
 class CategoryManager(models.Manager):
     """
     Manager personalizado para manejar soft deletes.
